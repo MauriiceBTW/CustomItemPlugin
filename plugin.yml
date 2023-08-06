@@ -1,0 +1,8 @@
+name: CustomItemProject
+version: '${project.version}'
+main: me.maurice.customitemproject.CustomItemProject
+api-version: '1.20'
+
+commands: 
+  customitem:
+    description: Gives you a custom item
