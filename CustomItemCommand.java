@@ -42,12 +42,12 @@ public class CustomItemCommand implements CommandExecutor {
         ItemStack item = new ItemStack(Material.DIAMOND_SWORD);
         ItemMeta meta = item.getItemMeta();
         meta.setDisplayName("§a§lCustom §b§lSword");
-        meta.addEnchant(Enchantment.LOOT_BONUS_BLOCKS, 5, true);
+        meta.addEnchant(Enchantment.LOOT_BONUS_MOBS, 5, true);
         meta.setUnbreakable(true);
         List<String> lore = new ArrayList<>();
         lore.add("");
         lore.add("§7This is a custom Sword");
-        lore.add("§7created in §6Episode 6");
+        lore.add("§7created in §6Episode 5");
         item.setItemMeta(meta);
         return item;
     }
