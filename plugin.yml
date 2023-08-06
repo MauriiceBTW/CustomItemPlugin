@@ -1,6 +1,6 @@
 name: CustomItemProject
 version: '${project.version}'
-main: me.maurice.customitemproject.CustomItemProject
+main: me.maurice.customitemproject.CustomItemPlugin
 api-version: '1.20'
 
 commands: 
